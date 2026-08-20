@@ -38,13 +38,3 @@
 | `#창업준비` | 39 |
 
 > 소득 관련 태그는 공개판에 해당 필드가 없어 생성하지 않았다.
-
----
-
-## 이 수치를 재현하려면
-
-```bash
-python scripts/build_extended_pack.py --local ./data --seed 817 --balance even --total 3000
-```
-
-같은 씨앗·같은 조건이면 같은 3,000명이 나온다.
